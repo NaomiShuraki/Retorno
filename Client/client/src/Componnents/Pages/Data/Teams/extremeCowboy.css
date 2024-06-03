@@ -1,0 +1,74 @@
+ body {
+  background:transparent;
+  overflow-y: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+ 
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+.parent-container {
+  width: inherit;
+  height: inherit;
+}
+
+.header-th {
+  width: inherit;
+  height: 35%;
+  background-size: cover;
+  background-image: url("../../../../Assats/123-boots.jpg");
+}
+.main-div-comtainer {
+  width: inherit;
+  justify-content: center;
+  display: flex;
+  margin-top: -80px;
+  max-height: max-content;
+
+}
+
+.typography-ex {
+width: 70%;
+padding-left: 5px;
+padding-right: 5px;
+float: left;
+max-height: max-content;
+color: white;
+h1{
+  font-family: monof55;
+}
+}
+
+@font-face {
+  font-family: monof55;
+  src: url(../../../../Assats/Fonts/Dust\ West.ttf);
+}
+
+
+.pict-div
+{
+display: flex;
+justify-content: center;
+float: left;
+}
+
+.pic-one {
+  margin-right: 10px;
+  height: 294px;
+  width: 500px;
+  background-size: cover;
+  background-image: url("../../../../Assats/extreme-cowboy/netanel&dubi.jpg");
+
+}
+
+.pic-two {
+  margin-right: 10px;
+  height: 294px;
+  width: 500px;
+  background-size: cover;
+  background-image: url("../../../../Assats/extreme-cowboy/omri&jungo.png");
+
+ 
+}

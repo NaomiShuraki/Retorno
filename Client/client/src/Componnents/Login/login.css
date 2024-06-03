@@ -1,0 +1,32 @@
+html {
+    font-size: 16px;
+   }
+   
+   label {
+    margin-bottom: 8px;
+    display: block;
+
+   }
+   
+   input {
+    padding: 8px;
+    width: 100%;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #bdc3c7;
+    border-left: 0;
+   }
+   
+   button {
+      font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    border-radius: 2px;
+   }
+   
+   .container-login {
+    display: grid;
+    margin-right: auto;
+    margin-top: auto;
+  }
